@@ -4,7 +4,6 @@
 
 <https://www.shinyapps.io/admin/#/application/13687459>
 
-<aside>![](https://www.notion.so/icons/document_gray.svg){alt="https://www.notion.so/icons/document_gray.svg" width="40px"} 목차</aside>
 
 <aside>
 
