@@ -130,3 +130,15 @@ Shiny패키지를 통하여 웹 서비스 개발해 집값의 상승 시기를 �
 -   마커클러스터링과 래스터 이미지에 대한 지식
 -   leaflet, shiny 패키지를 통한 제대로 된 앱 구현과 배포
 -   분석 목적과 맞게 우리가 이사 갈만한 집에 대해서 정보를 한눈에 알아볼 수 있어서 조금만 앱을 다듬으면 이사갈 때 도움이 될 것 같다.
+
+![image](https://github.com/user-attachments/assets/6616ae21-5326-4eac-9ea0-f224993c95c3)
+
+![image](https://github.com/user-attachments/assets/f1732cb8-255b-4ebf-ba29-6ef242daab13)
+
+![image](https://github.com/user-attachments/assets/6bbdb616-d462-44b8-a9b8-971a1e98dcb2)
+
+![image](https://github.com/user-attachments/assets/2b2f7163-e74d-4eeb-8422-7a14778fef50)
+
+![image](https://github.com/user-attachments/assets/81b1bd54-6337-4210-8763-6d7074e85b00)
+
+![image](https://github.com/user-attachments/assets/54a27b89-3bd0-4dc0-a4e0-901e16d767e1)
