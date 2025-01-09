@@ -1,6 +1,6 @@
 # 시흥 집 값 분석 웹앱 개발
 
-![](images/clipboard-3410295722.png)
+![image](https://github.com/user-attachments/assets/b75d030c-e4b3-4205-87b7-ee02984e62dc)
 
 <https://www.shinyapps.io/admin/#/application/13687459>
 
