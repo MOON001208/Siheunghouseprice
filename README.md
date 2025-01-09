@@ -1,10 +1,9 @@
 # 시흥 집 값 분석 웹앱 개발
 
-![](images/clipboard-3410295722.png)
+![image](https://github.com/user-attachments/assets/b75d030c-e4b3-4205-87b7-ee02984e62dc)
 
 <https://www.shinyapps.io/admin/#/application/13687459>
 
-<aside>![](https://www.notion.so/icons/document_gray.svg){alt="https://www.notion.so/icons/document_gray.svg" width="40px"} 목차</aside>
 
 <aside>
 
@@ -46,17 +45,17 @@ Shiny패키지를 통하여 웹 서비스 개발해 집값의 상승 시기를 �
 
 그 후 sp, sf 패키지를 이용하여 지오데이터프레임을 생성하였으며 시각화를 통하여 지오코딩이 잘 되어있는지 확인해 본 결과 이상한 지역의 데이터가 들어가 있는 것을 확인할 수 있었다.
 
-![](images/clipboard-861811603.png)
+![image](https://github.com/user-attachments/assets/6616ae21-5326-4eac-9ea0-f224993c95c3)
 
 확인결과 카카오 API를 이용하여 공간정보를 생성하는 도중 똑같은 이름의 주소이지만 다른 지역인 데이터들이 시흥시가 아닌 다른 지역으로 공간정보가 할당 된 것을 확인하였다.
 
 데이터가 188건으로 크지 않고 우리 가족이 이사를 고려한 장소가 아니라고 판단하여 그냥 이들을 제거하고 분석을 진행해주었다.
 
-![](images/clipboard-2677023485.png)
+![image](https://github.com/user-attachments/assets/f1732cb8-255b-4ebf-ba29-6ef242daab13)
 
 국토교통플랫폼에서 시흥시 전역의 행정구역에 대한 SHP파일을 이용하여 시흥시 경계와 시흥시 내부 500m 간격 격자를 생성해주었다.
 
-![](images/clipboard-3658515624.png)
+![image](https://github.com/user-attachments/assets/6bbdb616-d462-44b8-a9b8-971a1e98dcb2)
 
 그리고 아파트 주소별로 아파트 평균 가격을 시각화 해보았다.
 
@@ -66,13 +65,13 @@ Shiny패키지를 통하여 웹 서비스 개발해 집값의 상승 시기를 �
 
 이 데이터를 통해서 래스터 이미지를 만들어 시각화를 해보려 했으나 래스터 이미지가 생각보다 연하고 시각화 과정에서 원치 않은 이미지들이 자꾸 생성되어 래스터 이미지를 통한 분석은 실행하지 못했다.
 
-![](images/clipboard-592872500.png)
+![image](https://github.com/user-attachments/assets/2b2f7163-e74d-4eeb-8422-7a14778fef50)
 
 위에서 생성한 500m 시흥시 격자 데이터와 아파트 가격 데이터를 공간 결합하고 leaflet 패키지와 마커클러스터링 기법을 이용하여 어느 지역이 거래량이 많은지 한눈에 볼 수 있는지 시각화 해주었다.
 
 마커를 눌러주면 자동으로 그 지역으로 화면이 확대되며 더욱 쉽게 원하는 지역으로 갈 수 있다.
 
-![](images/clipboard-3410295722.png)
+![image](https://github.com/user-attachments/assets/81b1bd54-6337-4210-8763-6d7074e85b00)
 
 최종적으로 500m 격자 데이터와 아파트 가격 데이터에서 아파트가 존재하는 grid만 추출하여 지도상에 표시해주었다.
 
@@ -86,7 +85,7 @@ Shiny패키지를 통하여 웹 서비스 개발해 집값의 상승 시기를 �
 
 -   아파트 이름, 가격, 층수, 건축 연도, 면적을 이용한 PCA분석 그래프
 
-    ![](images/clipboard-3968325057.png)
+![image](https://github.com/user-attachments/assets/54a27b89-3bd0-4dc0-a4e0-901e16d767e1)
 
 ### Table
 
@@ -131,3 +130,13 @@ Shiny패키지를 통하여 웹 서비스 개발해 집값의 상승 시기를 �
 -   마커클러스터링과 래스터 이미지에 대한 지식
 -   leaflet, shiny 패키지를 통한 제대로 된 앱 구현과 배포
 -   분석 목적과 맞게 우리가 이사 갈만한 집에 대해서 정보를 한눈에 알아볼 수 있어서 조금만 앱을 다듬으면 이사갈 때 도움이 될 것 같다.
+
+
+
+
+
+
+
+
+
+
